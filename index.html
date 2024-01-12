@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Студентська Форма</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="form-container">
+        <form id="studentForm" class="box">
+            <div class="field">
+                <label for="course" class="label">Курс:</label>
+                <div class="control">
+                    <div class="select">
+                        <select id="course" name="course">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="specialty" class="label">Спеціальність:</label>
+                <div class="control">
+                    <div class="select">
+                        <select id="specialty" name="specialty">
+                            <option value="ComputerScience">Комп'ютерні науки</option>
+                            <option value="AppliedMechanics">Прикладна механіка</option>
+                            <option value="Management">Менеджмент</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <button id="submitBtn" class="button is-primary">Відправити</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+   
+    
+        
+            
+    
+    <div class="table-container">
+        <table id="resultsTable" class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+            <thead>
+                <tr>
+                    <th>Курс</th>
+                    <th>Спеціальність</th>
+                    <th>Рік вступу</th>
+                    <th>Рік закінчення</th>
+                    <th>Назва групи</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>   
